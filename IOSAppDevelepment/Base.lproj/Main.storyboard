@@ -40,7 +40,7 @@
         <!--View Controller-->
         <scene sceneID="NTO-Ea-6TZ">
             <objects>
-                <viewController id="fbz-h4-0Tw" sceneMemberID="viewController">
+                <viewController id="fbz-h4-0Tw" customClass="ViewController" customModule="IOSAppDevelepment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oOM-kc-pMZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,6 +59,9 @@
                             <constraint firstItem="QNr-Vw-j6D" firstAttribute="leading" secondItem="ykp-Pd-IG2" secondAttribute="leading" id="e5c-YS-oM9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dataTableView" destination="QNr-Vw-j6D" id="DGa-5Q-r26"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sXl-C6-Wvg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
