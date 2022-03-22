@@ -56,10 +56,25 @@
                     <view key="view" contentMode="scaleToFill" id="oOM-kc-pMZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vvQ-kE-ofL">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ykp-Pd-IG2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vvQ-kE-ofL" firstAttribute="leading" secondItem="ykp-Pd-IG2" secondAttribute="leading" id="HDJ-FK-mLB"/>
+                            <constraint firstItem="vvQ-kE-ofL" firstAttribute="top" secondItem="ykp-Pd-IG2" secondAttribute="top" id="T8O-D2-0dc"/>
+                            <constraint firstItem="ykp-Pd-IG2" firstAttribute="trailing" secondItem="vvQ-kE-ofL" secondAttribute="trailing" id="kZq-U7-dOD"/>
+                            <constraint firstItem="ykp-Pd-IG2" firstAttribute="bottom" secondItem="vvQ-kE-ofL" secondAttribute="bottom" id="pns-ZH-ky7"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zVv-XT-9ks"/>
+                    <connections>
+                        <outlet property="showDataTablaView" destination="vvQ-kE-ofL" id="5bf-gH-JwS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sXl-C6-Wvg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
