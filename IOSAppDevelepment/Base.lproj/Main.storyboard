@@ -22,9 +22,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00k-pG-tJ6">
-                                <rect key="frame" x="76" y="354" width="250" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00k-pG-tJ6">
+                                <rect key="frame" x="20" y="166" width="374" height="31"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Table View">
@@ -38,9 +37,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="00k-pG-tJ6" secondAttribute="trailing" constant="20" id="3yb-pV-naf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yF9-iY-FGc" secondAttribute="trailing" constant="50" id="BiG-Lq-qed"/>
                             <constraint firstItem="yF9-iY-FGc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="X0r-24-Y1f"/>
+                            <constraint firstItem="00k-pG-tJ6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eUg-NN-uT6"/>
                             <constraint firstItem="yF9-iY-FGc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="wgl-qd-OP3"/>
+                            <constraint firstItem="00k-pG-tJ6" firstAttribute="top" secondItem="yF9-iY-FGc" secondAttribute="bottom" constant="20" id="yGe-0H-h3r"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FOZ-2Q-GpZ"/>
