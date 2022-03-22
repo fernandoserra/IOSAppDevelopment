@@ -22,6 +22,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00k-pG-tJ6">
+                                <rect key="frame" x="76" y="354" width="250" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Table View">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="fbz-h4-0Tw" kind="show" id="ABL-67-Qca"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
@@ -44,24 +56,10 @@
                     <view key="view" contentMode="scaleToFill" id="oOM-kc-pMZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="QNr-Vw-j6D">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ykp-Pd-IG2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="ykp-Pd-IG2" firstAttribute="bottom" secondItem="QNr-Vw-j6D" secondAttribute="bottom" id="72d-hW-u3E"/>
-                            <constraint firstItem="ykp-Pd-IG2" firstAttribute="trailing" secondItem="QNr-Vw-j6D" secondAttribute="trailing" id="Gwv-aR-33R"/>
-                            <constraint firstItem="QNr-Vw-j6D" firstAttribute="top" secondItem="ykp-Pd-IG2" secondAttribute="top" id="N3P-ph-x3R"/>
-                            <constraint firstItem="QNr-Vw-j6D" firstAttribute="leading" secondItem="ykp-Pd-IG2" secondAttribute="leading" id="e5c-YS-oM9"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="dataTableView" destination="QNr-Vw-j6D" id="DGa-5Q-r26"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="zVv-XT-9ks"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sXl-C6-Wvg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,6 +87,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

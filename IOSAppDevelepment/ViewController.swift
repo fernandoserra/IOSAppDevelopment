@@ -11,8 +11,8 @@ class ViewController: UIViewController {
 
     
     // MARK - referencia a la tabla
-    
-    @IBOutlet weak var dataTableView: UITableView!
+    @IBOutlet weak var showDataTablaView: UITableView!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
