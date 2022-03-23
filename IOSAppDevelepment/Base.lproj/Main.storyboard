@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aSd-he-M27">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aSd-he-M27">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -51,15 +51,15 @@
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="79.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Tabla Controller-->
         <scene sceneID="NTO-Ea-6TZ">
             <objects>
-                <viewController id="fbz-h4-0Tw" customClass="ViewController" customModule="IOSAppDevelepment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fbz-h4-0Tw" customClass="TablaController" customModule="IOSAppDevelepment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oOM-kc-pMZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vvQ-kE-ofL">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="How-MC-qi5">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -67,15 +67,15 @@
                         <viewLayoutGuide key="safeArea" id="ykp-Pd-IG2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vvQ-kE-ofL" firstAttribute="leading" secondItem="ykp-Pd-IG2" secondAttribute="leading" id="HDJ-FK-mLB"/>
-                            <constraint firstItem="vvQ-kE-ofL" firstAttribute="top" secondItem="ykp-Pd-IG2" secondAttribute="top" id="T8O-D2-0dc"/>
-                            <constraint firstItem="ykp-Pd-IG2" firstAttribute="trailing" secondItem="vvQ-kE-ofL" secondAttribute="trailing" id="kZq-U7-dOD"/>
-                            <constraint firstItem="ykp-Pd-IG2" firstAttribute="bottom" secondItem="vvQ-kE-ofL" secondAttribute="bottom" id="pns-ZH-ky7"/>
+                            <constraint firstItem="ykp-Pd-IG2" firstAttribute="bottom" secondItem="How-MC-qi5" secondAttribute="bottom" id="EPw-FU-jIQ"/>
+                            <constraint firstItem="ykp-Pd-IG2" firstAttribute="trailing" secondItem="How-MC-qi5" secondAttribute="trailing" id="G7M-Xm-VyN"/>
+                            <constraint firstItem="How-MC-qi5" firstAttribute="leading" secondItem="ykp-Pd-IG2" secondAttribute="leading" id="SdJ-QI-uNo"/>
+                            <constraint firstItem="How-MC-qi5" firstAttribute="top" secondItem="ykp-Pd-IG2" secondAttribute="top" id="ooi-sc-YQs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zVv-XT-9ks"/>
                     <connections>
-                        <outlet property="showDataTablaView" destination="vvQ-kE-ofL" id="5bf-gH-JwS"/>
+                        <outlet property="tableView" destination="How-MC-qi5" id="Wj3-LN-Iqc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sXl-C6-Wvg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
