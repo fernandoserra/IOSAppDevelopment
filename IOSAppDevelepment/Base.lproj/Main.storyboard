@@ -33,12 +33,21 @@
                                     <segue destination="fbz-h4-0Tw" kind="show" id="ABL-67-Qca"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npM-gw-phj">
+                                <rect key="frame" x="20" y="227" width="374" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Table View Cell Custom"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="00k-pG-tJ6" secondAttribute="trailing" constant="20" id="3yb-pV-naf"/>
+                            <constraint firstItem="npM-gw-phj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9xj-Mf-5Dr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yF9-iY-FGc" secondAttribute="trailing" constant="50" id="BiG-Lq-qed"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="npM-gw-phj" secondAttribute="trailing" constant="20" id="Jrh-bB-e0Q"/>
+                            <constraint firstItem="npM-gw-phj" firstAttribute="top" secondItem="00k-pG-tJ6" secondAttribute="bottom" constant="30" id="VHp-g8-AWw"/>
                             <constraint firstItem="yF9-iY-FGc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="X0r-24-Y1f"/>
                             <constraint firstItem="00k-pG-tJ6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eUg-NN-uT6"/>
                             <constraint firstItem="yF9-iY-FGc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="wgl-qd-OP3"/>
