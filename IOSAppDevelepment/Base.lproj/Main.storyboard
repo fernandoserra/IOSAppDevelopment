@@ -38,6 +38,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Table View Cell Custom"/>
+                                <connections>
+                                    <segue destination="J6T-fX-EoE" kind="show" id="had-mh-6WY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -70,6 +73,7 @@
                         <viewLayoutGuide key="safeArea" id="pEl-F2-anf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="MNM-st-h56"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o2H-iM-1yD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
