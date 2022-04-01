@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="79.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Table Custom View Controller-->
         <scene sceneID="OWw-s4-8FK">
             <objects>
-                <viewController id="J6T-fX-EoE" sceneMemberID="viewController">
+                <viewController id="J6T-fX-EoE" customClass="TableCustomViewController" customModule="IOSAppDevelepment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TDs-ff-6L3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
