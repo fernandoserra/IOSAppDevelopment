@@ -70,14 +70,26 @@
                     <view key="view" contentMode="scaleToFill" id="TDs-ff-6L3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mVO-kh-1Gm">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="pEl-F2-anf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mVO-kh-1Gm" secondAttribute="bottom" id="50d-cG-8Iy"/>
+                            <constraint firstItem="mVO-kh-1Gm" firstAttribute="trailing" secondItem="pEl-F2-anf" secondAttribute="trailing" id="5oP-jE-uWv"/>
+                            <constraint firstItem="mVO-kh-1Gm" firstAttribute="leading" secondItem="pEl-F2-anf" secondAttribute="leading" id="Atq-yI-G28"/>
+                            <constraint firstItem="mVO-kh-1Gm" firstAttribute="top" secondItem="pEl-F2-anf" secondAttribute="top" id="W6B-tp-wir"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="MNM-st-h56"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o2H-iM-1yD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1903" y="461"/>
+            <point key="canvasLocation" x="1902.8985507246377" y="554.46428571428567"/>
         </scene>
         <!--Tabla Controller-->
         <scene sceneID="NTO-Ea-6TZ">
