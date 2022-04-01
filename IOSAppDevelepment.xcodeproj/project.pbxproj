@@ -10,6 +10,7 @@
 		B36C469B27EB9C930093ADC1 /* Tabla.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C469A27EB9C930093ADC1 /* Tabla.swift */; };
 		B38A414027F54DE600BF6206 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A413E27F54DE600BF6206 /* CardViewCell.swift */; };
 		B38A414127F54DE600BF6206 /* CardViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B38A413F27F54DE600BF6206 /* CardViewCell.xib */; };
+		B3ABEE6727F6938E00A85CE0 /* TableCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABEE6627F6938E00A85CE0 /* TableCustomViewController.swift */; };
 		B3C4CCB327E3CD3D00D576E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4CCB227E3CD3D00D576E8 /* AppDelegate.swift */; };
 		B3C4CCB527E3CD3D00D576E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4CCB427E3CD3D00D576E8 /* SceneDelegate.swift */; };
 		B3C4CCB727E3CD3D00D576E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4CCB627E3CD3D00D576E8 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		B36C469A27EB9C930093ADC1 /* Tabla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabla.swift; sourceTree = "<group>"; };
 		B38A413E27F54DE600BF6206 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
 		B38A413F27F54DE600BF6206 /* CardViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewCell.xib; sourceTree = "<group>"; };
+		B3ABEE6627F6938E00A85CE0 /* TableCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCustomViewController.swift; sourceTree = "<group>"; };
 		B3C4CCAF27E3CD3D00D576E8 /* IOSAppDevelepment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSAppDevelepment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C4CCB227E3CD3D00D576E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C4CCB427E3CD3D00D576E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				B3C4CCBD27E3CD3F00D576E8 /* LaunchScreen.storyboard */,
 				B3C4CCC027E3CD3F00D576E8 /* Info.plist */,
 				B36C469A27EB9C930093ADC1 /* Tabla.swift */,
+				B3ABEE6627F6938E00A85CE0 /* TableCustomViewController.swift */,
 			);
 			path = IOSAppDevelepment;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				B3C4CCB727E3CD3D00D576E8 /* ViewController.swift in Sources */,
 				B3C4CCB327E3CD3D00D576E8 /* AppDelegate.swift in Sources */,
+				B3ABEE6727F6938E00A85CE0 /* TableCustomViewController.swift in Sources */,
 				B38A414027F54DE600BF6206 /* CardViewCell.swift in Sources */,
 				B36C469B27EB9C930093ADC1 /* Tabla.swift in Sources */,
 				B3C4CCB527E3CD3D00D576E8 /* SceneDelegate.swift in Sources */,
