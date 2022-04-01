@@ -9,6 +9,9 @@ import UIKit
 
 class CardViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var userNameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +23,8 @@ class CardViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    
+    func setupCell(username: String){
+        userNameLabel.text=username
+    }
 }
